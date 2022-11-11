@@ -1,0 +1,21 @@
+.calculator button {
+    width: 25%;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    transition: all 0.2s;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .calculator button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .calculator button:active {
+    opacity: 1;
+  }
+
+  button.equal {
+    width: 50%;
+  }
