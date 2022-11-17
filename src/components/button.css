@@ -1,23 +1,27 @@
 .calculator button {
-    width: 25%;
-    height: 40px;
-    border-radius: 0px;
-    border: none;
-    transition: all 0.2s;
-    outline: 1px solid rgba(0, 0, 0, 0.1);
-  }
-  
-  .calculator button:hover {
-    opacity: 0.8;
-    cursor: pointer;
-  }
-  
-  .calculator button:active {
-    opacity: 1;
-  }
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  transition: all 0.5s;
+  background-color: rgba(20, 20, 20, 0.9);
+  color: white;
+  outline: 1px solid rgba(255, 255, 255, 0.1);
+}
 
-  button.equal {
-    width: 50%;
-    color: whitesmoke;
-    background: rgba(0, 0, 0, 0.8);
-  }
+.calculator button:hover {
+  outline: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(50, 50, 50, 0.9);
+  cursor: pointer;
+}
+
+.calculator button:active {
+  filter: brightness(100%);
+}
+
+/* button.equal {
+  color: whitesmoke;
+}
+button.equal:hover {
+  background: rgba(50, 50, 50);
+} */
