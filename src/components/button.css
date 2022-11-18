@@ -6,7 +6,6 @@
   transition: all 0.5s;
   background-color: rgba(20, 20, 20, 0.9);
   color: white;
-  outline: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .calculator button:nth-child(17){
@@ -14,7 +13,6 @@
 }
 
 .calculator button:hover {
-  outline: 1px solid rgba(255, 255, 255, 0.3);
   background-color: rgba(50, 50, 50, 0.9);
   cursor: pointer;
 }
