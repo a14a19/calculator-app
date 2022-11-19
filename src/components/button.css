@@ -6,6 +6,8 @@
   transition: all 0.5s;
   background-color: rgba(20, 20, 20, 0.9);
   color: white;
+  font-weight: 600;
+  font-size: 17px;
 }
 
 .calculator button:nth-child(17){
@@ -13,11 +15,12 @@
 }
 
 .calculator button:first-child{
-  background-color: rgb(60, 60, 60);
+  background-color: rgb(255, 255, 255);
+  color: black;
 }
 
 .calculator buttonL:first-child:hover {
-  background-color: rgb(20, 20, 20, 0.9);
+  opacity: 0.8;
 }
 
 .calculator button:hover {
